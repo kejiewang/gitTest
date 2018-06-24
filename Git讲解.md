@@ -72,7 +72,7 @@ git config --global user.email
 - `git checkout dev`创建一个dev分支
 - `git checkout -b dev`创建并切换到dev分支里面
 - `git branch` 查看分支的情况
-- `git merge dev` 将分支进行合并，但这样就不会存在commit信息可以采用`git merge --no--f -m "keep message"`的方式进行合并
+- `git merge dev` 将分支进行合并，但这样就不会存在commit信息可以采用`git merge --no-f -m "keep message"`的方式进行合并
 - GiHub的使用
     - 注册账号
     - 个人中心创建 repository:
